@@ -8,7 +8,7 @@ const mieiPost = [
         titolo: "Ciambellone",
         contenuto: "Cibo",
         img: "/BlogImg/ciambellone.jpeg",
-        tag: "Dolce"
+        tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
 
@@ -17,7 +17,7 @@ const mieiPost = [
         titolo: "Cracker barbabietola",
         contenuto: "Cibo",
         img: "/BlogImg/cracker_barbabietola.jpeg",
-        tag: "Salato"
+        tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
 
@@ -26,7 +26,7 @@ const mieiPost = [
         titolo: "Pane fritto dolce",
         contenuto: "Cibo",
         img: "/BlogImg/pane_fritto_dolce.jpeg",
-        tag: "Dolce"
+        tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
 
@@ -35,7 +35,7 @@ const mieiPost = [
         titolo: "Pasta barbabietola",
         contenuto: "Cibo",
         img: "BlogImg/pasta_barbabietola.jpeg",
-        tag: "Salato"
+        tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
 
@@ -44,7 +44,7 @@ const mieiPost = [
         titolo: "Torta paesana",
         contenuto: "Cibo",
         img: "BlogImg\torta_paesana.jpeg",
-        tag: "Dolce"
+        tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
 
