@@ -7,7 +7,7 @@ const mieiPost = [
         id: 1,
         titolo: "Ciambellone",
         contenuto: "Cibo",
-        img: "/BlogImg/ciambellone.jpeg",
+        img: "/img/ciambellone.jpeg",
         tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
@@ -16,7 +16,7 @@ const mieiPost = [
         id: 2,
         titolo: "Cracker barbabietola",
         contenuto: "Cibo",
-        img: "/BlogImg/cracker_barbabietola.jpeg",
+        img: "/img/cracker_barbabietola.jpeg",
         tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
@@ -25,7 +25,7 @@ const mieiPost = [
         id: 3,
         titolo: "Pane fritto dolce",
         contenuto: "Cibo",
-        img: "/BlogImg/pane_fritto_dolce.jpeg",
+        img: "/img/pane_fritto_dolce.jpeg",
         tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
@@ -34,7 +34,7 @@ const mieiPost = [
         id: 4,
         titolo: "Pasta barbabietola",
         contenuto: "Cibo",
-        img: "BlogImg/pasta_barbabietola.jpeg",
+        img: "/img/pasta_barbabietola.jpeg",
         tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
     },
@@ -43,17 +43,26 @@ const mieiPost = [
         id: 5,
         titolo: "Torta paesana",
         contenuto: "Cibo",
-        img: "BlogImg\torta_paesana.jpeg",
+        img: "/img/torta_paesana.jpeg",
         tags: ["cibo", "Vacanza", "Viaggio", "Tradizione",]
 
-    },
+    }
+];
 
 
 
 
 
-]
 
 app.get('/', (req, res) => {
     res.send('Server del mio blog')
+})
+
+
+app.get('/bacheca', (req, res) => {
+    res.send(mieiPost)
+})
+
+app.listen(port, () => {
+console.log(`Example app listening on port ${port}`)
 })
